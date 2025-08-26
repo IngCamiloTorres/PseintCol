@@ -1,0 +1,21 @@
+ALGORITMO SaludoCordial
+    // Este programa saluda al usuario
+    DEFINA nombre COMO TEXTO
+    DEFINA edad COMO ENTERO
+
+    MUESTRE "¡Hola! Bienvenido a PseudoCol."
+    MUESTRE "Por favor, dime tu nombre:"
+    LEA nombre
+
+    MUESTRE "Ahora, ", nombre, ", dime tu edad:"
+    LEA edad
+
+    MUESTRE "¡Qué bien, ", nombre, "!"
+    SI edad >= 18 ENTONCES
+        MUESTRE "Veo que eres mayor de edad, tienes ", edad, " años."
+    SINO
+        MUESTRE "A tus ", edad, " años, todavía eres joven."
+    FINSI
+
+    MUESTRE "¡Hasta pronto!"
+FINALGORITMO
